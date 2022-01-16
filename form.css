@@ -1,0 +1,82 @@
+
+*{
+  background-color: rgb(255, 255, 255);
+}
+.box-style {
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+    width: 280px;
+    position: relative;
+    line-height: 35px;
+    border-radius: 30px;
+   
+    
+   
+    padding: 50px;
+      margin: 4px;
+   
+    
+    
+}
+#fn,#mn,#ln,#year,#sem{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-stretch: expanded;
+  color: slateblue;
+
+}
+#t1,#t2,#t3{
+  border-style:solid;
+  border-radius: 10px;
+  border-color: blueviolet;
+}
+#home{
+  
+  border: none;
+  color:dimgrey(121, 42, 167, 0.425);
+ 
+ 
+  font-size: 16px;
+  
+  opacity: 1;
+  transition: 0.3s;
+}
+#home:hover {opacity: 5;
+color: rgb(165, 64, 190);
+border-style: solid;
+border-color: hotpink;
+border-radius: 10px;}
+
+#upcoming{
+  
+  border: none;
+  color:dimgrey(121, 42, 167, 0.425);
+ 
+ 
+  font-size: 14px;
+  
+  opacity: 1;
+  transition: 0.3s;
+}
+#upcoming:hover {opacity: 5;
+color: rgb(165, 64, 190);
+border-style: solid;
+border-color: hotpink;
+border-radius: 10px;
+}
+
+#sub{
+  font-size: 20px;
+  border-radius: 6px;
+  height: 40px;
+  width: 130px;
+  border-color: blueviolet;
+  opacity: 1;
+  transition: 0.3s;
+}
+#sub:hover{opacity: 5;
+border-radius: 20px;
+background-color: whitesmoke;}
+
+
